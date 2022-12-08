@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<!-- Estilos con la etiqueta style de ejemplo -->
+<link rel="stylesheet" href="style.css">
+<!-- <style>
+    h1{
+        color: blue !important;
+        font-weight: bold;
+    }
+</style>-->
+</head>
+<body>
+    <header>
+        <!-- <h1 style="color: green ; font-weight: 100;">Hola mundo soy yo</h1>-->
+<h1>Hola mundo soy yo</h1>  
+    </header>
+    <h2>Que tal</h2>
+    <p>
+        <form action="">
+            <h3>Hola Rodrigo, Elige tu ciudad:</h3>
+            <label for="Atlixco">Atlixco</label>
+             <input type="button" id="Atlixco"> 
+            <label for="SanAndres">San Andrés Cholula</label>
+             <input type="button" id="SanAndres"> 
+            <label for="Puebla">Puebla</label>
+             <input type="button" id="Puebla"> 
+        </form>
+                <form action="">
+                <h3>Elige tu mes de nacimiento y año</h3>
+                <label for="Mes">Mes:</label>
+                <input type="month" id="Mes">
+                </form>
+                    <form action="">
+                    <h3>Elige tu día de nacimiento</h3>
+                    <label for="Dia">Día:</label>
+                    <input type="number" id="Dia">
+                    </form>
+        <h4>Elige tu bebida preferida</h4>
+            <form name="formulariobebida" method="post"  action="send.php">
+                <input type="radio" id="cafe" name="bebida" value="Cafe"> Cafe
+                <input type="radio" id="refresco" name="bebida" value="Cafe"> Refresco
+                <input type="radio" id="chocolate" name="bebida" value="Cafe"> Chocolate <br>
+                <input type="email" placeholder="Escriba su correo electrónico"><br>
+                <textarea name="carta" id="carta" cols="30" rows="10">Escribe aquí porque te gusta esa bebida</textarea> <br>
+                <button>Enviar</button>
+            </form>
+            <h3>Elige el país campeón en Qatar 2022</h3>
+                <form name="elegir" method="get" action="send.php">
+                    <input type="checkbox" id="Argentina" value="Argentina" >Argentina
+                    <input type="checkbox" id="Brasil" value="Brasil" >Brasil
+                    <input type="checkbox" id="Francia" value="Francia" >Francia
+                    <input type="checkbox" id="Portugal" value="Portugal" >Portugal
+                    <input type="checkbox" id="Inglaterra" value="Inglaterra" >Inglaterra
+                    <button>CAMPEÓN</button>
+                </form>
+                <br><br>
+                <h3>Para ti, ¿Cuál es el mejor sabor?</h3>
+                    <form name="eleccion" action="send.php" method="dialog">
+                        <label for="sabor">Sabor:</label>
+                        <select name="sabor" id="sabor">
+                            <option value="Vainilla">Vainilla</option>
+                            <option value="Fresa">Fresa</option>
+                            <option value="Chocolate">Chocolate</option>
+                            <option value="Picante">Picante</option>
+                            <option value="Amargo">Amargo</option>
+                        </select><br>
+                        <label for="rango">¿Qué tanto te gusta?</label>
+                        <form id="rango"  action="send.php">
+                            <input type="range">
+                            <button>EL MEJOR SABOR</button>
+                        </form>
+
+                    </form>
+                    
+                    
+    </p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
